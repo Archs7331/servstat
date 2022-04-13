@@ -90,3 +90,13 @@ elif myasn == "AS32751 Nuclearfallout Enterprises, Inc.":
  @@@    @@? @@@@@@@  :@@:   @@@
  @@@    @@? @@@      :@@@@@@@@@
     """)
+else:
+    print(f"""
+[38;2;87;136;241mCPU[0m: {cpu}
+[38;2;87;136;241mCPU Cores[0m: {cores}
+[38;2;87;136;241mRAM[0m: {ram}MB
+[38;2;87;136;241mUPTIME[0m: {uptime}
+[38;2;87;136;241mCPU USAGE[0m: {cpuload}%
+[38;2;87;136;241mServer IP[0m: {ip}
+[38;2;87;136;241mUser[0m: {username}
+""")
